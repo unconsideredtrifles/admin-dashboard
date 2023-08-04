@@ -38,6 +38,7 @@ body {
 
     margin-top: 12rem;
     margin-left: 6rem;
+    margin-bottom: 12rem;
 }
 
 .dashboard-title-icon {
@@ -54,11 +55,15 @@ body {
     font-weight: bold;
 }
 
+.dashboard-nav {
+    margin-bottom: 20rem;
+}
+
 .dashboard-nav-item {
     display: flex;
     align-items: center;
     margin-left: 14rem; 
-    margin-bottom: 16rem;
+    margin-bottom: 20rem;
 }
 
 .dashboard-nav-icon {
