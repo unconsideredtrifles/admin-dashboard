@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --dashboard-title-icon-size: 38rem;
+    --dashboard-icon-size: 18rem;
+
+    font-size: 6.25%;
+}
+
+body {
+    font-family: var(--system-ui);
+    font-size: 16rem;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto;
+}
+
+.dashboard-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 30rem;
+
+    color: #fff;
+    background-color: #3b82f6;
+}
+
+.dashboard-title {
+    display: flex;
+    align-items: center;
+
+    margin-top: 12rem;
+    margin-left: 6rem;
+}
+
+.dashboard-title-icon {
+    width: var(--dashboard-title-icon-size);
+    height: var(--dashboard-title-icon-size);
+    fill: #fff;
+}
+
+
+.dashboard-title-name {
+    margin-left: 6rem;
+
+    font-size: 22rem;
+    font-weight: bold;
+}
+
+.dashboard-nav-item {
+    display: flex;
+    align-items: center;
+    margin-left: 14rem; 
+    margin-bottom: 16rem;
+}
+
+.dashboard-nav-icon {
+    width: var(--dashboard-icon-size);
+    height: var(--dashboard-icon-size);
+    fill: #fff;
+}
+
+
+.dashboard-nav-label {
+    margin-left: 14rem; 
+    font-size: 15rem;
+    font-weight: 600;
+}
+
+.dashboard-main {
+    background-color: #e5e7eb;
+}
+
+.dashboard-main-header {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #fff;
+}
+
+.dashboard-header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+
+    width: 60%;
+    min-height: 50px;
+    padding-left: 38rem;
+}
+
+.header-icon {
+    width: 20rem;
+    height: 20rem;
+}
+
+#search-form {
+    flex: 1;
+
+    appearance: none;
+    margin-left: 8rem;
+
+    height: 24rem;
+
+    border: none;
+    border-radius: 20rem;
+    padding: 10rem;
+
+    background-color: #e5e7eb;
+}
+
+#search-form:focus {
+    outline: none;
+    border: 1px solid #9da5b5;
+}
+
+
+.account {
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+
+    padding-right: 64rem;
+}
+
+.profile-thumb {
+    width: 42rem;
+    height: 42rem;
+
+    border: 1px solid #d9d3d0;
+    border-radius: 100%;
+}
+
+.account-name {
+    font-weight: bold;
+}
+
+.dashboard-header-bottom {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 12rem 64rem 14rem 38rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+
+    gap: 10rem;
+}
+
+.profile-pic {
+    width: 60rem;
+    height: 60rem;
+
+    border-radius: 100%;
+}
+
+.welcome-message {
+    font-weight: bold;
+}
+
+.greeting-phrase {
+    font-size: 12rem;
+}
+
+.user-display-name {
+    font-size: 21rem;
+}
+
+.article-function-group {
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+}
+
+.article-function {
+    width: 84rem;
+    height: 30rem;
+
+    border: none;
+    border-radius: 15rem;
+    padding: 6rem;
+
+    font-size: 14rem;
+    font-family: inherit;
+    font-weight: 570;
+
+    color: #fff;
+    background-color: #3b82f6;
+}
+
+.article-function:hover {
+    color: #000;
+    background-color: #e3e3e3;
+}
+
+
+
