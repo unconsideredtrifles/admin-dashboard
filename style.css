@@ -222,8 +222,7 @@ body {
 }
 
 .project-area {
-    flex: 3;
-    padding: 20rem;
+    margin-right: 20rem;
 }
 
 .project-list-title {
