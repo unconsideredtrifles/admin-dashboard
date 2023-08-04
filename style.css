@@ -216,7 +216,9 @@ body {
 }
 
 .dashboard-main-body {
-    display: flex;
+    display: grid;
+    padding: 20rem;
+    grid-template-columns: 3fr 1fr;
 }
 
 .project-area {
