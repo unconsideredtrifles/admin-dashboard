@@ -277,7 +277,7 @@ body {
 }
 
 .announcement p {
-    font-size: 80%; 
+    font-size: 80%;
 }
 
 .announcement-title,
@@ -310,7 +310,7 @@ body {
 }
 
 .trending-project img {
-    width: 50rem; 
+    width: 50rem;
     height: 50rem;
     border-radius :100%;
 }
@@ -318,7 +318,3 @@ body {
 .user-handle {
     margin-bottom: 6rem;
 }
-
-
-
-
