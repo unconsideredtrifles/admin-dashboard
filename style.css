@@ -234,6 +234,10 @@ body {
     gap: 20rem;
 }
 
+.project-title {
+    margin-bottom: 8rem;
+}
+
 .project {
     border-left: 8px solid #d5ad13;
     border-radius: 8rem;
