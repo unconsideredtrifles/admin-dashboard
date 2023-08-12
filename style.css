@@ -333,6 +333,7 @@ body {
 .trending-project img {
     width: 50rem;
     height: 50rem;
+    border: 1px solid #ddcecedd;
     border-radius :100%;
 }
 
