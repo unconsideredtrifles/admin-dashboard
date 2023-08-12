@@ -8,6 +8,7 @@
     --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --dashboard-title-icon-size: 38rem;
     --dashboard-icon-size: 18rem;
+    --default-font-color: #616161; 
 
     font-size: 6.25%;
 }
@@ -15,6 +16,10 @@
 body {
     font-family: var(--system-ui);
     font-size: 16rem;
+}
+
+.text-body {
+    color: var(--default-font-color);
 }
 
 .dashboard {
